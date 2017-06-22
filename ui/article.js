@@ -17,6 +17,7 @@ function loadCommentForm () {
         // Create a request object
         var request = new XMLHttpRequest();
         
+        
         // Capture the response and store it in a variable
         request.onreadystatechange = function () {
           if (request.readyState === XMLHttpRequest.DONE) {
